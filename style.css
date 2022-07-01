@@ -1,0 +1,161 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Mulish', sans-serif;
+	font-family: 'Open Sans', sans-serif;
+	font-family: 'Poppins', sans-serif;
+	font-family: 'Quicksand', sans-serif;
+
+}
+ a {
+ 	text-decoration: none;
+ }
+ img{
+ 	height: auto;
+    
+ }
+/*header section start*/
+.header{
+	width: 100%;
+	border-bottom: 1.5px solid #eee;
+	
+}
+.container{
+	width: 1140px;
+	margin: auto;
+
+}
+.navbar{
+	display:grid;
+	justify-self: start;
+	grid-template-columns: auto auto auto auto ;
+
+}
+.menu{
+	display: flex;
+}
+.menu ul li{
+	list-style: none;
+	display: inline-block;
+	margin-left: 16px;
+	color: black;
+}
+.menu ul li a{
+	line-height: 46px;
+	font-weight: 300;
+}
+.navbar-button a{
+	justify-content: space-evenly;
+	display:grid;
+	
+	color: white;
+ 	background: red;
+ 	padding-left: 10px;
+ 	padding-right: 10px;
+ 	padding-top: 10px;
+ 	padding-bottom: 10px;
+ 	border-radius: 5%;
+}
+/*--  banner section code */
+.banner{
+	width: 100%;
+}
+.main-box{
+	display: flex;
+	margin-top: 90px;
+	margin-bottom: 90px;
+	text-align: left;
+}
+.left{
+	flex-basis: 50%;
+	margin-top: 20px;
+}
+.right{
+	flex-basis: 50%;
+}
+ .left h1{
+	font-weight: 800;
+}
+.left p{
+	font-weight: 300;
+
+}
+
+/* demo section start */
+.demo{
+	width: 100%;
+	margin-top: 100px;
+}
+.demo h3{
+	font-weight: 700;
+	text-align: center;
+
+}
+.demo p{
+	font-weight: 300;
+	text-align: center;
+	font-style: italic;
+}
+.demo-box{
+	display: flex;
+	margin-bottom:100px;
+	width: 1140px;
+}
+.pic{
+	margin: 40px 40px 30px 30px;
+}
+
+/* demo section end */
+
+/* features section start */
+ .features{
+ 	width: 100%;
+ 	padding-bottom: 20px;
+ 	margin-bottom: 40px;
+ }
+ .features h3{
+ 	text-align: center;
+
+ }
+ .features p{
+ 	text-align: center;
+ }
+.features-content{
+	margin-top: 20px;
+	display: grid;
+	grid-template-columns: auto auto auto;
+	column-gap: 20px;
+	row-gap: 20px;
+}
+.features-item{
+	padding: 40px 30px;
+	background-color: #f5f5f5;
+}
+.features-item h4{
+	text-align: center;
+}
+/* features section end */
+ /* footer section start */
+ .footer{
+ 	width: 100%;
+ 	background-color: #292640;
+ 	text-align: center;
+ 	padding-top: 40px;
+ 	padding-bottom: 40px;
+ }
+ .footer h1{
+ 	font-weight: 800;
+ 	font-size: 50px;
+ 	color: white;
+ }
+ .footer a{
+ 	color: white;
+ 	height: 40px;
+ 	width: 60px;
+ 	background: red;
+ 	padding: 10px;
+ 	margin-top: 20px;
+ 	border-radius: 5%;
+ }
